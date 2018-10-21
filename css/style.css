@@ -1,0 +1,185 @@
+body{
+  background: #e1f2df;
+}
+
+#cv{
+  font-size: 200%;
+  padding-left: 5%;
+}
+
+#titulo{
+  text-align: center;
+}
+
+#yo{
+  border: solid;
+  border-radius: 40%;
+  width: 150px;
+  height: 150px;
+}
+
+#git{
+  padding-top: 5px;
+}
+
+#git2{
+  padding-bottom: 15px; 
+}
+
+#uno{
+  background: #748971;
+  /*background: #9cae99;*/
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 27%;
+  height: 225px;
+}
+
+#dos{
+  width: 49%;
+  border-right: groove;
+  border-left: groove;
+
+}
+
+#left{
+  padding-left: 20px;
+}
+
+#tres{
+  position: fixed;
+  left: 1027px;
+  width: 24%;
+  height: 450px;
+}
+
+#h3{
+  text-align: center;
+}
+
+#tab{
+  padding-left: 10px;
+}
+
+.figura{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  width: 0;
+  height: 0;
+  border-right: 80px solid transparent;
+  border-top: 80px solid yellow;
+  border-left: 80px solid yellow;
+  border-bottom: 80px solid yellow;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  animation-name: pacman;  
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.figura:hover{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  width: 0;
+  height: 0;
+  border-right: 40px solid transparent;
+  border-top: 40px solid yellow;
+  border-left: 40px solid yellow;
+  border-bottom: 40px solid yellow;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  animation-name: pacman;  
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: 3s;
+}
+
+@keyframes pacman{
+    0%   {background-color:yellow;}
+    25%  {background-color:#e1f2df;}
+    50%  {background-color:yellow;}
+    75%  {background-color:#e1f2df;}
+    100% {background-color:yellow;}
+}
+
+
+
+.app {
+  background: #43609C;
+  border-radius: 9%;
+  display: block;
+  height: 100px;
+  left: 30%;
+  margin: -51px 0 0 -49px;
+  position: relative;
+  top: 50px;
+  width: 100px; 
+}
+ 
+.app:after {
+  color: #fff;
+  content: "f";
+  display: block;
+  font-family: Facebook Letter Faces, Arial;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 6% 0 0 50%; 
+  position: relative;
+  bottom: 20px;
+  right: 18px;
+}
+ 
+
+.circle{
+    position: relative;
+    bottom: 162px;
+    left: 211px;
+    display: inline-block;
+    margin-left: 5px;
+    height: 40px;
+    border-radius: 100%;
+    width:40px;
+    border:solid white 4px;
+}
+
+.square{
+    position: relative;
+    bottom: 250px;
+    left: 196px;
+    display: inline-block;
+    margin-left: 5px;
+    height: 75px;
+    border-radius: 30%;
+    width: 75px;
+    border:solid white 4px;
+}
+
+.point{
+  position: relative;
+  bottom: 345px;
+  left: 250px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+
+}
+
+.instagram { 
+position: relative;
+left: 189px;
+bottom: 95px;
+width:100px; height:100px;
+background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+border-radius: 9%;
+}
