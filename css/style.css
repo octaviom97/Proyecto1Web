@@ -31,12 +31,12 @@ body{
   /*background: #9cae99;*/
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  width: 27%;
+  width: 30%;
   height: 225px;
 }
 
 #dos{
-  width: 49%;
+  width: 45%;
   border-right: groove;
   border-left: groove;
 
@@ -49,7 +49,7 @@ body{
 #tres{
   position: fixed;
   left: 1027px;
-  width: 24%;
+  width: 20%;
   height: 450px;
 }
 
