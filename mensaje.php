@@ -8,4 +8,6 @@ $contenido="Nombre: ".$nombre."\nCorreo: ".$correo."\nMensaje: ".$mensaje;
 
 mail($destino,"Correo desde php",$contenido);
 
+header("location: index.html");
+
 ?>
