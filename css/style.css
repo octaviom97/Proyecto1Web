@@ -27,15 +27,6 @@ body{
   padding-bottom: 15px; 
 }
 
-#uno{
- /* background: #748971;
-  background: #9cae99;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;*/
-  /*width: 30%;*/
-  /*height: 225px;*/
-}
-
 #fondop{
   background: #748971;
   border-bottom-left-radius: 50%;
@@ -43,7 +34,6 @@ body{
 }
 
 #dos{
-  /*width: 45%;*/
   border-right: groove;
   border-left: groove;
 
@@ -56,8 +46,6 @@ body{
 #tres{
   position: fixed;
   left: 1027px;
-  /*width: 20%;*/
-  /*height: 450px;*/
 }
 
 #h3{
